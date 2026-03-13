@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class RectangleArea {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Read two integers from input
+        int length = sc.nextInt();
+        int breadth = sc.nextInt();
+
+        // Calculate the area
+        int area = length * breadth;
+
+        // Print the area
+        System.out.println(area);
+
+        sc.close();
+    }
+}
