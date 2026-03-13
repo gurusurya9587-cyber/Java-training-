@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class RemainderCalculator {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Read two integers
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        // Calculate remainder
+        int remainder = a % b;
+
+        // Print remainder
+        System.out.println(remainder);
+
+        sc.close();
+    }
+}
